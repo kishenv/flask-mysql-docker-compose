@@ -1,4 +1,4 @@
-# flask-mysql-docker-compose
+# Flask and MySQL container orchestration using Docker Compose.
 
 A simple service developed to understand the setting up of containers using Docker, and orchestrating the same using docker-compose.
 
