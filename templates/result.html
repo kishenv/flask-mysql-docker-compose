@@ -1,0 +1,18 @@
+<body>
+<h2> <center> VMs Associated </center></h2>
+<center>
+<table border="1" cellpadding="5" cellspacing="5">
+    <tr>
+		<td align="center">User</td>
+		<td align="center">VMID</td>
+	</tr>
+	{% for row in data %}
+        <tr>
+        {% for d in row %}
+            <td align="center">{{ d }}</td>
+        {% endfor %}
+        </tr>
+    {% endfor %}
+</table>
+</center>
+</body>
